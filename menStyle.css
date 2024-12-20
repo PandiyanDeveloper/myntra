@@ -1,0 +1,109 @@
+*{
+    font-family: cursive;
+}
+.head_container p{
+    text-transform: uppercase;
+    color: rgb(56, 54, 54);
+    font-size: 28px;
+    padding: 5% 0px 0px 3%;
+    font-weight: 600;
+}
+.biggest_deals_card .card_container{
+    width: 100%;
+    display: flex;
+    column-gap: 5%;
+    text-align: center;
+}
+.biggest_deals_card .card{
+    border: none;
+}
+.biggest_deals_card{
+    padding: 3% 5%;
+}
+.biggest_deals_card .card_block{
+    width: 24%;
+}
+.biggest_deals_card .card_block .card img{
+    width: 100%;
+    height: 290px;
+}
+.biggest_deals_card .card_block .card-body h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(109, 107, 107);
+}
+.biggest_deals_card .card_block .card-body p{
+    font-size: 22px;
+    color: rgb(109, 107, 107);
+}
+.biggest_deals_card .card_block .card-body a{
+    text-transform: uppercase;
+    background-color: rgb(251, 90, 90);
+    color: white;
+}
+/* ---------------------------------------------CATEGORIES CARD---------------------------------------------------------------- */
+.categories_card{
+    padding: 3%;
+}
+.round_card_container{
+    width: 100%;
+    display: flex;
+    column-gap: 2%;
+    text-align: center;
+}
+.round_card_container .card_block{
+    width: 17%;
+}
+.round_card_container .card{
+    border: none;
+}
+.round_card_container .card{
+    background-color: rgb(240, 249, 253);
+    border: none;
+}
+.round_card_container .card_block .card img{
+    width: 100%;
+    height: 210px;
+    border-radius: 50%;
+}
+.round_card_container .card_block .card-body p{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* -------------------------------------------------------------------------EXPLORE CARD----------------------------------------------------- */
+.explore_card{
+    padding: 3%;
+}
+.explore_container{
+    width: 100%;
+    display: flex;
+    column-gap: 3%;
+    text-align: center;
+}
+.explore_container .card_block{
+    width: 18%;
+    height: 350px;
+}
+.explore_container .card{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244, 243, 243);
+    border: none;
+}
+.explore_container .card_block .card_img img{
+    width: 100%;
+    height: 240px;
+}
+.explore_container .card-body .card_logo{
+    width: 100%;
+    height: 46px;
+}
+.card-body .card_logo img{
+    width: 30%;
+}
+.explore_container .card-body p{
+    font-size: 21px;
+    color: rgb(109, 107, 107);
+    padding-top: 8px;
+}
